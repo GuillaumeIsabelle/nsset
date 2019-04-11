@@ -20,7 +20,7 @@ var target = "HOME.FOOTER.MYNOTES";
 var obj = new Object();
 
 var refObject = 
-nsset(target,o,txt); //note the obj is the target object
+nsset.set(target,o,txt); //note the obj is the target object
 ```
 
 ## License
