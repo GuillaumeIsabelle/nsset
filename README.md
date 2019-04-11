@@ -6,13 +6,13 @@
          alt="NPM Version">
   </a>
 
-  <a href="https://coveralls.io/r/jgwill/nsset">
-    <img src="https://img.shields.io/coveralls/jgwill/nsset.svg?style=flat-square"
+  <a href="https://coveralls.io/r/guillaumeisabelle/nsset">
+    <img src="https://img.shields.io/coveralls/guillaumeisabelle/nsset.svg?style=flat-square"
          alt="Coverage Status">
   </a>
 
-  <a href="https://travis-ci.org/jgwill/nsset">
-    <img src="https://img.shields.io/travis/jgwill/nsset.svg?style=flat-square"
+  <a href="https://travis-ci.org/guillaumeisabelle/nsset">
+    <img src="https://img.shields.io/travis/guillaumeisabelle/nsset.svg?style=flat-square"
          alt="Build Status">
   </a>
 
@@ -21,12 +21,12 @@
          alt="Downloads">
   </a>
 
-  <a href="https://david-dm.org/jgwill/nsset.svg">
-    <img src="https://david-dm.org/jgwill/nsset.svg?style=flat-square"
+  <a href="https://david-dm.org/guillaumeisabelle/nsset.svg">
+    <img src="https://david-dm.org/guillaumeisabelle/nsset.svg?style=flat-square"
          alt="Dependency Status">
   </a>
 
-  <a href="https://github.com/jgwill/nsset/blob/master/LICENSE">
+  <a href="https://github.com/guillaumeisabelle/nsset/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/nsset.svg?style=flat-square"
          alt="License">
   </a>
