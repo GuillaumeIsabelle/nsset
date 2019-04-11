@@ -23,16 +23,17 @@ function initializeNS(ns, obj2, val) {
   return obj[first]; // return a reference to the top level object
 }
 
-/**
-* Add Object/value to another using a namespace as target
-* @param {*} ns namespace target
-* @param {*} obj Target object
-* @param {*} val value to assign
-* @return {Object} Reference of created object
-*/
 module.exports =
   {
-    set: function(ns, obj, val) {
+
+    /**
+    * Add Object/value to another using a namespace as target
+    * @param {*} ns namespace target
+    * @param {*} obj Target object
+    * @param {*} val value to assign
+    * @return {Object} Reference of created object
+    */
+    set: function (ns, obj, val) {
       return initializeNS(ns, obj, val);
     }
   };
