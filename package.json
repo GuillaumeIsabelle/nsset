@@ -1,6 +1,6 @@
 {
   "name": "nsset",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Add a value to an object using a namespace",
   "main": "dist/index.js",
   "files": [
@@ -8,19 +8,6 @@
     "dist/"
   ],
   "scripts": {
-    "clean": "rimraf dist",
-    "lint": "eslint src test",
-    "check": "npm run lint -s && dependency-check package.json --entry src",
-    "watch": "watch 'npm run build' src test",
-    "test": "babel-node test/index.js | tspec",
-    "prebuild": "npm run check -s && npm run clean -s",
-    "build": "babel --optional runtime src -d dist",
-    "postbuild": "npm run test -s",
-    "coverage": "nyc --reporter=lcov --reporter=text npm run test",
-    "coveralls": "npm run coverage -s && coveralls < coverage/lcov.info",
-    "postcoveralls": "rimraf ./coverage",
-    "prepublish": "npm run build -s && cp -f src/index.js nsset.js",
-    "deploy": "git pull --rebase origin master && git push origin master",
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
     "major": "npm version major && npm publish",

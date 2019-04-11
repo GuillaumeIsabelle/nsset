@@ -30,6 +30,6 @@ function initializeNS(ns, obj2, val) {
 * @param {*} val value to assign
 * @return {Object} Reference of created object
 */
-export default function (ns, obj, val) {
+exports.default = function (ns, obj, val) {
   return initializeNS(ns, obj, val);
 }
