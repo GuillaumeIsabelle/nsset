@@ -30,7 +30,7 @@ function initializeNS(ns, obj2, val) {
 * @param {*} val value to assign
 * @return {Object} Reference of created object
 */
-modules.exports =
+module.exports =
   {
     set: function(ns, obj, val) {
       return initializeNS(ns, obj, val);
