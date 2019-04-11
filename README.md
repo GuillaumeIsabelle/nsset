@@ -14,7 +14,23 @@ npm i -D nsset
 
 ```js
 
-console.log("----CREATED LIB TESTING nsset----");
+var nsset = require('nsset');
+
+var txt = "hello world";
+var target = "HOME.FOOTER.MYNOTES";
+
+var o2 = new Object();
+
+nsset.set(target,o2,txt);
+
+
+```
+
+## Example
+
+```js
+
+
 var nsset = require('nsset');
 
 var txt = "hello world";
