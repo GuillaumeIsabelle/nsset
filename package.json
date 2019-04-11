@@ -29,18 +29,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgwill/nsset.git"
+    "url": "git+https://github.com/guillaumeisabelle/nsset.git"
   },
   "keywords": [
     "namespace",
     "hierarchy"
   ],
-  "author": "Guillaume Isabelle <jgi@jgwill.com>",
+  "author": "Guillaume Isabelle <contact@guillaumeisabelle.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jgwill/nsset/issues"
+    "url": "https://github.com/guillaumeisabelle/nsset/issues"
   },
-  "homepage": "https://github.com/jgwill/nsset#readme",
+  "homepage": "https://github.com/guillaumeisabelle/nsset#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
