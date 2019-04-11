@@ -1,6 +1,6 @@
 {
   "name": "nsset",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Add a value to an object using a namespace",
   "main": "nsset.js",
   "scripts": {
