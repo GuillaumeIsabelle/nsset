@@ -67,7 +67,7 @@ MIT © [Guillaume Isabelle](http://github.com/guillaumeisabelle)
 [travis-image]: https://img.shields.io/travis/guillaumeisabelle/nsset.svg?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/guillaumeisabelle/nsset
-[coveralls-image]: https://img.shields.io/coveralls/jgwill/nsset.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/guillaumeisabelle/nsset.svg?style=flat-square
 
 [depstat-url]: https://david-dm.org/guillaumeisabelle/nsset
 [depstat-image]: https://david-dm.org/guillaumeisabelle/nsset.svg?style=flat-square
