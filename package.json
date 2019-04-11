@@ -19,7 +19,7 @@
     "coverage": "nyc --reporter=lcov --reporter=text npm run test",
     "coveralls": "npm run coverage -s && coveralls < coverage/lcov.info",
     "postcoveralls": "rimraf ./coverage",
-    "prepublish": "npm run build -s",
+    "prepublish": "npm run build -s && cp -f src/index.js nsset.js",
     "deploy": "git pull --rebase origin master && git push origin master",
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
