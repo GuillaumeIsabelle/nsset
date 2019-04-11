@@ -13,14 +13,21 @@ npm i -D nsset
 ## Usage
 
 ```js
-import nsset from "nsset"
+
+console.log("----CREATED LIB TESTING nsset----");
+var nsset = require('nsset');
 
 var txt = "hello world";
-var target = "HOME.FOOTER.MYNOTES";   
-var obj = new Object();
+var target = "HOME.FOOTER.MYNOTES";
 
-var refObject = 
-nsset.set(target,o,txt); //note the obj is the target object
+
+var o2 = new Object();
+ 
+o2.whatever = "something";
+nsset.set(target,o2,txt);
+console.log("Object created :" );
+console.log(o2);
+
 ```
 
 ## License
