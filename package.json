@@ -3,10 +3,6 @@
   "version": "1.0.10",
   "description": "Add a value to an object using a namespace",
   "main": "dist/index.js",
-  "files": [
-    "bin/",
-    "dist/"
-  ],
   "scripts": {
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
