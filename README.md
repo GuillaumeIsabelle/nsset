@@ -48,7 +48,12 @@ npm i -D nsset
 ```js
 import nsset from "nsset"
 
-nsset() // true
+var txt = "hello world";
+var target = "HOME.FOOTER.MYNOTES";   
+var obj = new Object();
+
+var refObject = 
+nsset(target,o,txt); //note the obj is the target object
 ```
 
 ## License
