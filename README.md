@@ -58,18 +58,18 @@ nsset(target,o,txt); //note the obj is the target object
 
 ## License
 
-MIT © [Guillaume Isabelle](http://github.com/jgwill)
+MIT © [Guillaume Isabelle](http://github.com/guillaumeisabelle)
 
 [npm-url]: https://npmjs.org/package/nsset
 [npm-image]: https://img.shields.io/npm/v/nsset.svg?style=flat-square
 
-[travis-url]: https://travis-ci.org/jgwill/nsset
-[travis-image]: https://img.shields.io/travis/jgwill/nsset.svg?style=flat-square
+[travis-url]: https://travis-ci.org/guillaumeisabelle/nsset
+[travis-image]: https://img.shields.io/travis/guillaumeisabelle/nsset.svg?style=flat-square
 
-[coveralls-url]: https://coveralls.io/r/jgwill/nsset
+[coveralls-url]: https://coveralls.io/r/guillaumeisabelle/nsset
 [coveralls-image]: https://img.shields.io/coveralls/jgwill/nsset.svg?style=flat-square
 
-[depstat-url]: https://david-dm.org/jgwill/nsset
-[depstat-image]: https://david-dm.org/jgwill/nsset.svg?style=flat-square
+[depstat-url]: https://david-dm.org/guillaumeisabelle/nsset
+[depstat-image]: https://david-dm.org/guillaumeisabelle/nsset.svg?style=flat-square
 
 [download-badge]: http://img.shields.io/npm/dm/nsset.svg?style=flat-square
